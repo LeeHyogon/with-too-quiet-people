@@ -1,39 +1,44 @@
-Fork ÇÏ¸é ³» °èÁ¤À¸·Î º¹»çÇØ¿Ã ¼ö ÀÖÀ½. 
+Fork í•˜ë©´ ë‚´ ê³„ì •ìœ¼ë¡œ ë³µì‚¬í•´ì˜¬ ìˆ˜ ìžˆìŒ. 
 
-git clone https://github.com/LeeHyogon/git.git ÀÌ¸§ -> ´Ù¿î ¹Þ¾Æ¿Ã¼ö ÀÖÀ½.
+git clone https://github.com/LeeHyogon/git.git ì´ë¦„ -> ë‹¤ìš´ ë°›ì•„ì˜¬ìˆ˜ ìžˆìŒ.
 
-git status - ±ê ÇÁ·ÎÁ§Æ®ÀÇ »óÅÂ È®ÀÎ. ¾î¶² ÆÄÀÏÀÌ º¯Çß´ÂÁö ¾î¶²ÆÄÀÏÀÌ ±êÀ¸·Î ÃßÀûµÇ´ÂÁö
-git log - ±ê ÇÁ·ÎÁ§Æ®ÀÇ ¿©ÅÂ±îÁöÀÇ ±â·ÏÀ» È®ÀÎÇÏ°í½ÍÀ»‹š. Ä¿¹Ô ¸Þ½ÃÁö,¸®ºñÀü ³Ñ¹ö,³¯Â¥ ´©°¡³²°å´ÂÁö È®ÀÎ°¡´É.
-git remote-  ¾î¶² ÀúÀå¼Ò¿Í ¿¬°áµÇ´ÂÁö È®ÀÎÇÏ°í½ÍÀ»‹š ÀÌ¿ë. Ãß°¡ »èÁ¦ º¯°æ °¡´É
-origin ÁÖ¼Ò 
-key value ÇüÅÂ. 
+git status - ê¹ƒ í”„ë¡œì íŠ¸ì˜ ìƒíƒœ í™•ì¸. ì–´ë–¤ íŒŒì¼ì´ ë³€í–ˆëŠ”ì§€ ì–´ë–¤íŒŒì¼ì´ ê¹ƒìœ¼ë¡œ ì¶”ì ë˜ëŠ”ì§€
+git log - ê¹ƒ í”„ë¡œì íŠ¸ì˜ ì—¬íƒœê¹Œì§€ì˜ ê¸°ë¡ì„ í™•ì¸í•˜ê³ ì‹¶ì„Â‹Âš. ì»¤ë°‹ ë©”ì‹œì§€,ë¦¬ë¹„ì „ ë„˜ë²„,ë‚ ì§œ ëˆ„ê°€ë‚¨ê²¼ëŠ”ì§€ í™•ì¸ê°€ëŠ¥.
+git remote-  ì–´ë–¤ ì €ìž¥ì†Œì™€ ì—°ê²°ë˜ëŠ”ì§€ í™•ì¸í•˜ê³ ì‹¶ì„Â‹Âš ì´ìš©. ì¶”ê°€ ì‚­ì œ ë³€ê²½ ê°€ëŠ¥
+origin ì£¼ì†Œ 
+key value í˜•íƒœ. 
 
-git branch-ÇÁ·ÎÁ§Æ®ÀÇ ºê·£Ä¡ Á¤º¸È®ÀÎ °¡´É 
+git branch-í”„ë¡œì íŠ¸ì˜ ë¸Œëžœì¹˜ ì •ë³´í™•ì¸ ê°€ëŠ¥ 
 
-1. git init- ÃÊ±âÈ­, ÀÎÅÍ³Ý¿¡ ¾ÆÁ÷ ¿¬°á¾ÈµÇÀÖÀ½. 
-2.git remote add-¿ø°Ý ÀúÀå¼Ò ¿¬°á
-3.git status-±ê ÇÁ·ÎÁ§Æ® »óÅÂ È®ÀÎ
-4.git add- ±ê ÇÁ·ÎÁ§Æ®¿¡ Ãß°¡
-5.git commit Ä¿¹Ô ¸Þ½ÃÁö ÀÛ¼º 
+1. git init- ì´ˆê¸°í™”, ì¸í„°ë„·ì— ì•„ì§ ì—°ê²°ì•ˆë˜ìžˆìŒ. 
+2.git remote add-ì›ê²© ì €ìž¥ì†Œ ì—°ê²°
+3.git status-ê¹ƒ í”„ë¡œì íŠ¸ ìƒíƒœ í™•ì¸
+4.git add- ê¹ƒ í”„ë¡œì íŠ¸ì— ì¶”ê°€
+5.git commit ì»¤ë°‹ ë©”ì‹œì§€ ìž‘ì„± 
 
-git add . ÇöÀçµð·ºÅä¸®ÀÇ ¸ðµç°Ô ´Ù Ãß°¡
+git add . í˜„ìž¬ë””ë ‰í† ë¦¬ì˜ ëª¨ë“ ê²Œ ë‹¤ ì¶”ê°€
 
-git commit -m "¾È³çÇÏ¼¼¿ä~"
+git commit -m "ì•ˆë…•í•˜ì„¸ìš”~"
 
 git remote add firstedit https://github.com/LeeHyogon/with-too-quiet-people.git 
 
 git push firstedit master
 git remote -v
 
---ÇÁ·ÎÁ§Æ® °ü¸®ÇÏ±â --
+--í”„ë¡œì íŠ¸ ê´€ë¦¬í•˜ê¸° --
 
 
-git log ´©°¡ ¾ðÁ¦ ¹«¾ùÀ»
-Ä¿¹Ô¸Þ¼¼Áö¶õ? { 
-commit (ÇØ½¬°ª) ->ÀúÀåÇÏ´Â °÷, 
-Author -> ´©°¡›§´ÂÁö
-Date->¾ðÁ¦›§´ÂÁö
-¿Ö º¯°æÇß´ÂÁö? }
+git log ëˆ„ê°€ ì–¸ì œ ë¬´ì—‡ì„
+ì»¤ë°‹ë©”ì„¸ì§€ëž€? { 
+commit (í•´ì‰¬ê°’) ->ì €ìž¥í•˜ëŠ” ê³³, 
+Author -> ëˆ„ê°€Â›ãŽ¢ì©
+Date->ì–¸ì œÂ›ãŽ¢ì©
+ì™œ ë³€ê²½í–ˆëŠ”ì§€? }
+
+## ë³€ê²½ì‚¬í•­ 
+Pull ì—°ìŠµí•˜ê¸°. 
+
+
 
 
 
